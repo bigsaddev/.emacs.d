@@ -6,6 +6,8 @@
       mac-command-modifier 'meta
       mac-option-modifier 'none)
 
+(global-display-line-numbers-mode 1)
+
 ;; Package Manager
 (require 'package)
 (package-initialize)
