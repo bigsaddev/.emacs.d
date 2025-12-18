@@ -35,7 +35,7 @@
 (tool-bar-mode -1)
 
 ;; Fonts
-(set-frame-font "Fira Code 12" nil t)
+(set-frame-font "Fira Code 14" nil t)
 
 ;; Themes
 (use-package doom-themes
@@ -47,7 +47,7 @@
   ;; for treemacs users
   (doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
   :config
-  (load-theme 'doom-acario-dark t)
+  (load-theme 'doom-ayu-dark t)
 
   ;; Enable flashing mode-line on errors
   (doom-themes-visual-bell-config)
@@ -81,4 +81,8 @@
   (doom-modeline-height 25))
 
 ;; LaTeX Org-Config
-(setq org-format-latex-options (plist-put org-format-latex-options :scale 2.0))
+;; (setq org-format-latex-options (plist-put org-format-latex-options :scale 2.0))
+
+;; Racket
+(require 'racket-xp)
+(add-hook 'racket-mode-hook #'racket-xp-mode)
