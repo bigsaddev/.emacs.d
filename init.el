@@ -6,13 +6,13 @@
       mac-command-modifier 'meta
       mac-option-modifier 'none)
 
+;; Line numbers
 (global-display-line-numbers-mode 1)
 
 ;; Package Manager
 (require 'package)
-(package-initialize)
-
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
 
 (when (< emacs-major-version 29)
   (unless (package-installed-p 'use-package)
@@ -32,8 +32,8 @@
   :hook (after-init . delete-selection-mode))
 
 ;; Bars
-(menu-bar-mode 1)
-(scroll-bar-mode 1)
+(menu-bar-mode 0)
+(scroll-bar-mode 0)
 (tool-bar-mode -1)
 
 ;; Fonts
@@ -49,7 +49,7 @@
   ;; for treemacs users
   (doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
   :config
-  (load-theme 'doom-ayu-dark t)
+  (load-theme 'doom-1337 t)
 
   ;; Enable flashing mode-line on errors
   (doom-themes-visual-bell-config)

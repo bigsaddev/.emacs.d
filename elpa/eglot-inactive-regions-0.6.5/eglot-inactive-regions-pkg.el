@@ -1,0 +1,2 @@
+;; Generated package description from mode: lisp-data; .el  -*- eglot-inactive-regionsno-byte-compile: t -*-
+(define-package "eglot-inactive-regions" "0.6.5" "Highlight inactive code regions with eglot power" '((emacs "29.1")) :commit "3d973b45afbf3afa835abaf3d99c993b5426a596" :authors '(("Filippo Argiolas" . "filippo.argiolas@gmail.com")) :maintainer '("Filippo Argiolas" . "filippo.argiolas@gmail.com") :url "https://github.com/fargiolas/eglot-inactive-regions")

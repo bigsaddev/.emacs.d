@@ -5,8 +5,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(all-the-icons all-the-icons-dired doom-modeline doom-themes
-		   racket-mode rainbow-delimiters smartparens)))
+   '(all-the-icons all-the-icons-dired company doom-modeline doom-themes
+		   eglot-inactive-regions racket-mode
+		   rainbow-delimiters smartparens which-key-posframe)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
