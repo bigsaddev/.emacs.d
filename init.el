@@ -37,7 +37,7 @@
 (tool-bar-mode -1)
 
 ;; Fonts
-(set-frame-font "Fira Code 14" nil t)
+(set-frame-font "Fira Code Semi-Bold 14" nil t)
 
 ;; Themes
 (use-package doom-themes
@@ -88,3 +88,13 @@
 ;; Racket
 (require 'racket-xp)
 (add-hook 'racket-mode-hook #'racket-xp-mode)
+
+;; Enable Eglot for Racket
+(add-hook 'racket-mode-hook #'eglot-ensure)
+
+;; Enable rainbow-delimiters for programming mdoes
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+
+;; Enable company-mode globally
+(add-hook 'after-init-hook 'global-company-mode)
+
