@@ -7,7 +7,8 @@
  '(package-selected-packages
    '(all-the-icons all-the-icons-dired company doom-modeline doom-themes
 		   eglot-inactive-regions racket-mode
-		   rainbow-delimiters smartparens which-key-posframe)))
+		   rainbow-delimiters sly smartparens
+		   which-key-posframe)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

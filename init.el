@@ -49,7 +49,7 @@
   ;; for treemacs users
   (doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
   :config
-  (load-theme 'doom-1337 t)
+  (load-theme 'doom-acario-dark t)
 
   ;; Enable flashing mode-line on errors
   (doom-themes-visual-bell-config)
