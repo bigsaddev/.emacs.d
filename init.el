@@ -98,3 +98,5 @@
 ;; Enable company-mode globally
 (add-hook 'after-init-hook 'global-company-mode)
 
+;; Which key
+(add-hook 'after-init-hook 'which-key-mode)
