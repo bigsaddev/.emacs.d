@@ -8,6 +8,9 @@
 
 ;; Line numbers
 (global-display-line-numbers-mode 1)
+(custom-set-faces
+ '(line-number ((t (:foreground "#555" :background nil :weight bold))))
+ '(line-number-current-line ((t (:foreground "#fff" :weight bold)))))
 
 ;; Package Manager
 (require 'package)
@@ -49,7 +52,7 @@
   ;; for treemacs users
   (doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
   :config
-  (load-theme 'doom-acario-dark t)
+  (load-theme 'doom-old-hope t)
 
   ;; Enable flashing mode-line on errors
   (doom-themes-visual-bell-config)
